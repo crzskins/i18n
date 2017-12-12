@@ -1,0 +1,77 @@
+{
+  "ANNOUNCE": "100 case keys every day for winners who tweeted via tweet button!",
+  "NAV_COINFLIP": "CoinFlip",
+  "NAV_SHOP": "P-Shop",
+  "NAV_SETTINGS": "Settings",
+  "NAV_FAQ": "F.A.Qs",
+  "NAV_SUPPORT": "Tech Support",
+  "NAV_FREE_COINS": "Free Coins",
+  "NAV_BLOG": "Blog",
+
+  "AUTH_LOGOUT": "logout",
+
+  "CF_TOTAL_VAL": "Total Value",
+  "CF_TOTAL_ITEMS": "Total Items",
+  "CF_MY_VAL": "My Value",
+  "CF_MY_ITEMS": "My Items",
+
+  "CF_NAV_COINFLIP": "CoinFlip",
+  "CF_NAV_HIST": "History",
+  "CF_NAV_CREATE": "Create a Coinflip",
+  "CF_HEAD_PLAYERS": "Players",
+  "CF_HEAD_ITEMS": "Items",
+  "CF_HEAD_SUM": "Total",
+  "CF_HEAD_APPS": "Accepts",
+  "CF_HEAD_STATUS": "Status",
+  "CF_HEAD_ACTION": "Action",
+  "CF_BTN_JOIN": "Join",
+  "CF_BTN_WATCH": "watch",
+  "CF_TASK_1": "You have offer to respond",
+  "CF_TASK_2": "Please respond it before create another offer ",
+  "CF_TASK_3": "Your offer has been sent.",
+  "CF_TASK_4": "Please check the safe code, DON'T respond offers without correct safe code",
+  "CF_TASK_5": "Time left",
+  "CF_TASK_6": "SecurityID",
+  "CF_INVENTORY_1": "Please select the skins as chips and confirm with the button below.",
+  "CF_INVENTORY_2": "Please select your chips and submit to deposite them.",
+  "CF_INVENTORY_3": "Only items more valuable than $1.50 is valid.",
+  "CF_INVENTORY_4": "Please select items which amount should be between",
+  "CF_INVENTORY_5": "and",
+
+  "CHAT_PLACEHOLDER": "Press Enter to Send",
+  "CHAT_SEND": "Send",
+
+  "PAGE_SETTING_TITLE": "SETTING",
+  "PAGE_SETTING_PROFILE_TITLE": "PROFILE SETTINGS",
+  "PAGE_SETTING_TRADE_LINK": "Steam trade link",
+  "PAGE_SETTING_SUBMIT": "Submit",
+  "PAGE_SETTING_FIND_LINK": "where can i get the link ?",
+  "PAGE_SETTING_INVENTORY_SETTING_LINK": "inventory setting on steam",
+
+  "FAQ": [
+    {
+      "title": "What is this game?",
+      "content": "CSGOHunt's coinflip a simple way to 1vs1 against other players and attempt to win their skins. To do so, all you have to do is either create a coinflip by picking the items you want to gamble, or join an existing one granted that you can place items valued at the same prices within a 10% margin. For example, if a round was created with items valued at 100.00$, then you will have to place a bet between 90.00$ and 110.00$.\n"
+    },
+    {
+      "title": "HOW TO CREATE A COINFLIP?",
+      "content": "When creating a round, simply click on \"Create a coinflip\". You will then see all the items from your current inventory and will be able to pick the ones you want to gamble. Our robot will send you a quotation after you submit to deposite items and you can’t open another round before you deal with the quotation within 5 minutes. Note that the minimum bet is 1.5$ for a maximum of 12 items. Our website system reads the players steam inventory and will automatically filter items below 1$."
+    },
+    {
+      "title": "HOW TO JOIN A COINFLIP?",
+      "content": "Joining a game is as easy as creating one, just click on \"Join\" on a coinflip that you're interested in. You will then be presented a different kind of inventory window, this one will have more information about what you need to add or remove to reach the correct bet amount. Once the offer is sent by one of our bot, a timer indicating that someone is trying to join will be triggered. It will last for 1.5 minutes to give time to the player to accept and confirm the offer. Past this time, the offer will be canceled and the round will once again become free for everyone to join."
+    },
+    {
+      "title": "WHAT HAPPEN WHEN A COINFLIP IS OVER?",
+      "content": "Once a round end, our bot will send you the trade offer right away. It is recommended to accept it as soon as possible to avoid any issue. Note that a commission of 0 to 10% may apply and will be reduced to 5% for a steam nickname with crzskins.com suffix. however the items that the bot keep cannot be the one that you used to create the coinflip. If no items matches the commission range, then no commission will be applied."
+    },
+    {
+      "title": "HOW IS THE WINNER PICKED?",
+      "content": "Since every player can place a bet within a 10% of the total value, some coinflip may not be exactly 50/50 chance of winning. The chances will be affected by how much you place. For instance, if someone create a coinflip of 100$ and a player join with 110$, the player that joined will have more chances of winning because his bet is higher. All the % are presented within the Join menu. The player that picks CT side will own the EARLY numbers, the one that joined as T-Side will own the LATE numbers. Here is a quick example: A coinflip valued at 100$ is created. Then someone join it with 110$, in this case his chances of winning would be 50%. The player that created the round as CT will have number 0 to 50%, the player that join as T will have 51 to 100%. Once the number generation is over, if the number is between 0 and 50, then the player that created the round will win! Otherwise, the player that joined wins the game."
+    },
+    {
+      "title": "HOW DOES THE NUMBER GENERATION WORKS AND WHAT IS PROVABLY FAIR?",
+      "content": "To ensure that every coinflip is fair and cannot be tempered with, we are using a distributed RNG system. The way it works is relatively simple: Each player generate a 'seed' (a string of random characters) and attach it to the create or join request. The server will also generate a seed and show its 'hash' (an encrypted version of the seed) to both players to garantee that it wasn't changed during any steps of the coinflip. Once the coinflip is over, all three seeds will be used to compute the winning percentage and the secret used to create the server 'hash' will also be revealed. In conclusion, this means that each players will contribute to the result of the final number, therefore no one can predict, influance or know the number beforehand."
+    }
+  ]
+}
