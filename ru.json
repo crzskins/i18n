@@ -1,0 +1,18 @@
+{
+  "NAV_COINFLIP": "CoinFlip\n",
+  "NAV_SHOP": "Магазин",
+  "NAV_SETTINGS": "Настройки",
+  "NAV_FAQ": "F.A.Qs",
+  "NAV_SUPPORT": "Тех.поддержка",
+  "NAV_FREE_COINS": "Free Coins",
+  "NAV_BLOG": "Блог",
+  "AUTH_LOGOUT": "Выход",
+  "CF_NAV_HIST": "История",
+  "CF_NAV_CREATE": "Создать Игру",
+  "CF_HEAD_PLAYERS": "Игрок",
+  "CF_BTN_JOIN": "Войти",
+  "CF_BTN_WATCH": "смотрить",
+  "CF_INVENTORY_5": "и ",
+  "CHAT_SEND": "Отправить",
+  "PAGE_SETTING_TITLE": "НАСТРОЙКИ"
+}
